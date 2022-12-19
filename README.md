@@ -25,6 +25,7 @@ You can also use pm2:
 - `pm2 start ecosystem.config.js`
 - `pm2 stop ecosystem.config.js`
 - `pm2 delete ecosystem.config.js`
+- `pm2 reload ecosystem.config.js` to reload new changes
 
 ### GET Routes
 

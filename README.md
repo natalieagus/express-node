@@ -1,6 +1,5 @@
 # Simple Node with Express Server with REST API
 
-
 An easy way to get started with a Express server offering a REST API with Node.js. [Read more about it.](https://www.robinwieruch.de/node-express-server-rest-api)
 
 ## Features
@@ -20,6 +19,12 @@ An easy way to get started with a Express server offering a REST API with Node.j
 - `npm install`
 - `npm start`
 - optional: include _.env_ in your _.gitignore_
+
+You can also use pm2:
+
+- `pm2 start ecosystem.config.js`
+- `pm2 stop ecosystem.config.js`
+- `pm2 delete ecosystem.config.js`
 
 ### GET Routes
 
